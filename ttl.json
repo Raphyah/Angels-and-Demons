@@ -1,0 +1,864 @@
+{
+	"players": [
+		{
+			"playername": "Ingrid",
+			"charname": "Veena",
+			"hp": {
+				"value": 100,
+				"max": 100
+			},
+			"mp": {
+				"value": 100,
+				"max": 100
+			},
+			"hunger": {
+				"value": 100,
+				"max": 100
+			},
+			"atk": {
+				"normal": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"def": {
+				"normal": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 10,
+			"eva": 10,
+			"leftWeapon": 0,
+			"rightWeapon": 11,
+			"armor": {
+				"head": 1,
+				"neck": 2,
+				"body": 3,
+				"leftArm": 0,
+				"rightArm": 0,
+				"legs": 0,
+				"leftKnee": 0,
+				"rightKnee": 0,
+				"leftFoot": 4,
+				"rightFoot": 4
+			}
+		}
+	],
+	"items": [
+		{
+			"name": "Amoras Do Reino",
+			"type": "food",
+			"hunger": 1,
+			"description": "Amoras colhidas diretamente do jardim do reino",
+			"quantity": 1
+		},
+		{
+			"name": "Poção",
+			"type": "potion",
+			"effect": {
+				"time": 0,
+				"clock": "rodadas",
+				"description": "HP+"
+			},
+			"description": "Recupera 20 de <hp>HP</hp> ao usuário.",
+			"quantity": 1
+		}
+	],
+	"skills": [
+		{
+			"name": "Fogo",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "fire",
+			"description": "O usuário toma controle sobre o fogo. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Água",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "water",
+			"description": "O usuário toma controle sobre a água. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Eletricidade",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "lightning",
+			"description": "O usuário toma controle sobre a eletricidade. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Gelo",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "ice",
+			"description": "O usuário toma controle sobre o gelo. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Terra",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "earth",
+			"description": "O usuário toma controle sobre a terra. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Vento",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "wind",
+			"description": "O usuário toma controle sobre o vento. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Luz",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "light",
+			"description": "O usuário toma controle sobre a luz. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Sombra",
+			"type": "atk",
+			"atk": 20,
+			"mp": 6,
+			"element": "dark",
+			"description": "O usuário toma controle sobre a escuridão. Modelar e movimentar, se torna então possível."
+		},
+		{
+			"name": "Escudo Dos Mares",
+			"type": "def",
+			"def": 50,
+			"mp": 10,
+			"element": "water",
+			"description": "Cria um escudo de água, do qual protege o usuário contra feitiços de fogo."
+		}
+	],
+	"weapons": [
+		{
+			"name": "Não equipado",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0
+		},
+		{
+			"name": "Guarda-Chuva",
+			"image": "none",
+			"rarity": {
+				"tier": "silver",
+				"stars": 1
+			},
+			"type": "Lança",
+			"wield": "2h",
+			"mp": 0,
+			"atk": {
+				"normal": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "Um simples guarda-chuva, fr&#225;gil, por&#233;m, muito eficaz para uma princesa.",
+			"quantity": 1,
+			"price": 120,
+			"inPlayerInventory": "Ingrid &#215;1"
+		},
+		{
+			"name": "&#945; Sword",
+			"image": "Alpha%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 300,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 300,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando sua composição fisica (ou matéria neutra), qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#946; Sword",
+			"image": "Beta%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 300,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 300,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria de fogo, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#947; Sword",
+			"image": "Gamma%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 300,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 300,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria de água, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#948; Sword",
+			"image": "Delta%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 300,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 300,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria de eletricidade, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#949; Sword",
+			"image": "Epsilon%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 300,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 300,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria de gelo, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#987; Sword",
+			"image": "Stigma%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 300,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 300,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria de terra, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#950; Sword",
+			"image": "Zeta%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 300,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 300,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria de ar, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#951; Sword",
+			"image": "Eta%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 300,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 300,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria santa, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "&#952; Sword",
+			"image": "Theta%20Sword",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 300
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 300
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "É dito que essa espada pode destruir, utilizando matéria sombria, qualquer obstáculo.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		},
+		{
+			"name": "Z-Saber",
+			"image": "Z-Saber",
+			"rarity": {
+				"tier": "rainbow"
+			},
+			"quantity": 0,
+			"type": "Espada",
+			"wield": "1h ou 1/2h",
+			"mp": 0,
+			"atk": {
+				"normal": 50,
+				"fire": 50,
+				"water": 50,
+				"lightning": 50,
+				"ice": 50,
+				"earth": 50,
+				"wind": 50,
+				"light": 50,
+				"dark": 50
+			},
+			"matk": {
+				"neutral": 50,
+				"fire": 50,
+				"water": 50,
+				"lightning": 50,
+				"ice": 50,
+				"earth": 50,
+				"wind": 50,
+				"light": 50,
+				"dark": 50
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "Esse sabre de luz, foi empunhado pelo guerreiro do futuro, Zero. Se adapta a qualquer elemento.",
+			"price": "N/D",
+			"inPlayerInventory": "Algum local desconhecido &#215;1"
+		}
+	],
+	"armors": [
+		{
+			"name": "Não equipado",
+			"mp": 0,
+			"def": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0
+		},
+		{
+			"name": "Chapéu Florido",
+			"image": "none",
+			"rarity": {
+				"tier": "silver",
+				"stars": 1
+			},
+			"quantity": 1,
+			"type": "Roupa Festiva",
+			"mp": 0,
+			"agi": 0,
+			"eva": 0,
+			"def": {
+				"normal": 1,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"description": "Um chapéu deslumbrante, repleto de flores, de diversos tipos.",
+			"price": 15,
+			"inPlayerInventory": "Ingrid &#215;1"
+		},
+		{
+			"name": "Pingente de Diamante",
+			"image": "none",
+			"rarity": {
+				"tier": "silver",
+				"stars": 1
+			},
+			"quantity": 1,
+			"type": "Acessório",
+			"mp": 0,
+			"agi": 0,
+			"eva": 0,
+			"def": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"description": "Um belo colar, com um pingente de diamante na ponta. impossível passar despercebido.",
+			"price": 15,
+			"inPlayerInventory": "Ingrid &#215;1"
+		},
+		{
+			"name": "Vestido Rosa",
+			"image": "none",
+			"rarity": {
+				"tier": "silver",
+				"stars": 1
+			},
+			"quantity": 1,
+			"type": "Roupa Festiva",
+			"mp": 0,
+			"agi": 0,
+			"eva": 0,
+			"def": {
+				"normal": 1,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"description": "Um maravilhoso vestido de festa. Encomendado especialmente para a princesa.",
+			"price": 15,
+			"inPlayerInventory": "Ingrid &#215;1"
+		},
+		{
+			"name": "Sapato Rosa",
+			"image": "none",
+			"rarity": {
+				"tier": "silver",
+				"stars": 1
+			},
+			"quantity": 2,
+			"type": "Roupa Festiva",
+			"mp": 0,
+			"agi": 0,
+			"eva": 0,
+			"def": {
+				"normal": 1,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"description": "Um sapato rosa, com um laço na parte superior.",
+			"price": 15,
+			"inPlayerInventory": "Ingrid &#215;1"
+		}
+	],
+	"bestiary": [
+		{
+			"name": "Reaper",
+			"hp": 1000,
+			"mp": 100,
+			"atk": {
+				"normal": 30,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 15
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"def": {
+				"normal": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 0,
+			"eva": 0,
+			"description": "Essa criatura, da qual habita as profundezas do inferno, é conhecida por derrubar portões de castelos com o peso de seu corpo"
+		}
+	],
+	"notebook": [
+		{
+			"notes": "A espada de Asgaleu (Asgalion Gladius), foi utilizada pelo Rei Da Luz, Dreriadus, para derrubar o exército das trevas, no ano de 576 a.C. A lenda conta, que 9 lâminas nasceram após esse ocorrido, formando as 10 Lendas De Ahr (Ahr Gladius), e seus nomes foram definidos de acordo com o alfanumérico grego, de seus nascimentos: &#945; (Alpha), &#946; (Beta), &#947; (Gamma), &#948; (Delta), &#949; (Epsilon), &#987; (Stigma), &#950; (Zeta), &#951; (Eta), e &#952; (Theta)."
+		}
+	]
+}
