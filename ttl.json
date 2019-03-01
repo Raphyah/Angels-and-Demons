@@ -4,7 +4,7 @@
 			"playername": "Ingrid",
 			"charname": "Veena",
 			"hp": {
-				"value": 100,
+				"value": 1,
 				"max": 100
 			},
 			"mp": {
