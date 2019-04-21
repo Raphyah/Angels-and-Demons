@@ -1,0 +1,157 @@
+{
+	"player":[
+		{
+			"name":"Ingrid",
+			"character":"Veena",
+			"level":1,
+			"hp":{
+				"value":25,
+				"dice":1,
+				"extra":0
+			},
+			"mp": {
+				"value":20,
+				"dice":1,
+				"extra":0
+			},
+			"hunger": 100,
+			"atk": {
+				"normal": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"def": {
+				"normal": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 10,
+			"eva": 10,
+			"leftWeapon": 0,
+			"rightWeapon": 11,
+			"armor": {
+				"head": 1,
+				"neck": 2,
+				"body": 3,
+				"leftArm": 0,
+				"rightArm": 0,
+				"legs": 0,
+				"leftKnee": 0,
+				"rightKnee": 0,
+				"leftFoot": 4,
+				"rightFoot": 4
+			}
+		},
+		{
+			"name":"Leonardo",
+			"character":"Raphyah",
+			"level":100,
+			"hp":{
+				"value":50000,
+				"dice":20,
+				"extra":0
+			},
+			"mp": {
+				"value":40000,
+				"dice":20,
+				"extra":0
+			},
+			"hunger": 100,
+			"atk": {
+				"normal": 10000,
+				"fire": 10000,
+				"water": 10000,
+				"lightning": 10000,
+				"ice": 10000,
+				"earth": 10000,
+				"wind": 10000,
+				"light": 10000,
+				"dark": 10000
+			},
+			"matk": {
+				"neutral": 10000,
+				"fire": 10000,
+				"water": 10000,
+				"lightning": 10000,
+				"ice": 10000,
+				"earth": 10000,
+				"wind": 10000,
+				"light": 10000,
+				"dark": 10000
+			},
+			"def": {
+				"normal": 10000,
+				"fire": 10000,
+				"water": 10000,
+				"lightning": 10000,
+				"ice": 10000,
+				"earth": 10000,
+				"wind": 10000,
+				"light": 10000,
+				"dark": 10000
+			},
+			"mdef": {
+				"neutral": 10000,
+				"fire": 10000,
+				"water": 10000,
+				"lightning": 10000,
+				"ice": 10000,
+				"earth": 10000,
+				"wind": 10000,
+				"light": 10000,
+				"dark": 10000
+			},
+			"agi": 1000,
+			"eva": 1000,
+			"leftWeapon": 0,
+			"rightWeapon": 11,
+			"armor": {
+				"head": 1,
+				"neck": 2,
+				"body": 3,
+				"leftArm": 0,
+				"rightArm": 0,
+				"legs": 0,
+				"leftKnee": 0,
+				"rightKnee": 0,
+				"leftFoot": 4,
+				"rightFoot": 4
+			},
+			"hide":false
+		}
+	]
+}

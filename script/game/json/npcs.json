@@ -1,0 +1,76 @@
+{
+	"npc":[
+		{
+			"name":"Asgalion",
+			"hp":{
+				"value":900000,
+				"max":900000
+			},
+			"mp": {
+				"value":90000,
+				"max":90000
+			},
+			"hunger": 100,
+			"atk": {
+				"normal": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"matk": {
+				"neutral": 0,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"def": {
+				"normal": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"mdef": {
+				"neutral": 10,
+				"fire": 0,
+				"water": 0,
+				"lightning": 0,
+				"ice": 0,
+				"earth": 0,
+				"wind": 0,
+				"light": 0,
+				"dark": 0
+			},
+			"agi": 10,
+			"eva": 10,
+			"leftWeapon": 0,
+			"rightWeapon": 11,
+			"armor": {
+				"head": 1,
+				"neck": 2,
+				"body": 3,
+				"leftArm": 0,
+				"rightArm": 0,
+				"legs": 0,
+				"leftKnee": 0,
+				"rightKnee": 0,
+				"leftFoot": 4,
+				"rightFoot": 4
+			}
+		}
+	]
+}
