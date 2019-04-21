@@ -7,6 +7,12 @@ meter {
 	width:86%;
 	float:right;
 }
+meter::-moz-meter-bar {
+	background:none;
+}
+meter::-webkit-meter-optimum-value {
+	background:none;
+}
 meter.hp::-moz-meter-bar {
 	background-color:#dc143c;
 }
