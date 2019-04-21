@@ -18,7 +18,7 @@ Day ${x} - ${note[x]}
 		nContainer.appendChild(d);
 	}
 }
-loadFile.JSON("script/game/json/notes.json","createNotes");
+loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/notes.json","createNotes");
 updateNotes();
 getBody.appendChild(nContainer);
 
@@ -28,7 +28,7 @@ function updateNotes(){
 	
 	function updateWindow(time){
 		windowReload = window.setTimeout(function(){
-			loadFile.JSON("script/game/json/notes.json","createNotes");
+			loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/notes.json","createNotes");
 		}, 1000*time);
 		counter = window.setInterval(function(){
 			if (time > 0){
