@@ -12,7 +12,7 @@ ${skill[x].name}
 		sContainer.appendChild(d);
 	}
 }
-loadFile.JSON("script/game/json/skills.json","createSkills");
+loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/skills.json","createSkills");
 updateSkills();
 getBody.appendChild(sContainer);
 
@@ -22,7 +22,7 @@ function updateSkills(){
 	
 	function updateWindow(time){
 		windowReload = window.setTimeout(function(){
-			loadFile.JSON("script/game/json/skills.json","createSkills");
+			loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/skills.json","createSkills");
 		}, 1000*time);
 		counter = window.setInterval(function(){
 			if (time > 0){
