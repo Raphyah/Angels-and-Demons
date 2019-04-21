@@ -5,7 +5,7 @@
 			"character":"Veena",
 			"level":1,
 			"hp":{
-				"value":25,
+				"value":0,
 				"dice":1,
 				"extra":0
 			},
