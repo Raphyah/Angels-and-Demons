@@ -12,7 +12,7 @@ ${armor[x].name}
 		aContainer.appendChild(d);
 	}
 }
-loadFile.JSON("script/game/json/armors.json","createArmors");
+loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/armors.json","createArmors");
 updateArmors();
 getBody.appendChild(aContainer);
 
@@ -22,7 +22,7 @@ function updateArmors(){
 	
 	function updateWindow(time){
 		windowReload = window.setTimeout(function(){
-			loadFile.JSON("script/game/json/armors.json","createArmors");
+			loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/armors.json","createArmors");
 		}, 1000*time);
 		counter = window.setInterval(function(){
 			if (time > 0){
