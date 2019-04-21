@@ -31,7 +31,9 @@ meter.hunger::-moz-meter-bar {
 meter.hunger::-webkit-meter-optimum-value {
 	background-color:#ff8c00;
 }
+div {
+font-size:32px;
+}
 .right{
 	float:right;
-font-size:32px;
 }
