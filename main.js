@@ -15,5 +15,5 @@ function next(){
 	if (current==7)loadFile.SCRIPT("script/game/pets.js","body","next");
 }
 
-loadFile.SCRIPT("script/game/players.js","body","next");
+loadFile.SCRIPT("https://raphyah.github.io/angels-and-demons/script/game/players.js","body","next");
 loadFile.STYLE("style/main.css");
