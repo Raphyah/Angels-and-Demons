@@ -151,7 +151,7 @@ Fome
 		npcsContainer.appendChild(d);
 	}
 }
-loadFile.JSON("script/game/json/npcs.json","createNPCs");
+loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/npcs.json","createNPCs");
 updateNPCs();
 getBody.appendChild(npcsContainer);
 
@@ -161,7 +161,7 @@ function updateNPCs(){
 	
 	function updateWindow(time){
 		windowReload = window.setTimeout(function(){
-			loadFile.JSON("script/game/json/npcs.json","createNPCs");
+			loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/npcs.json","createNPCs");
 		}, 1000*time);
 		counter = window.setInterval(function(){
 			if (time > 0){
