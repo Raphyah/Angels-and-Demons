@@ -12,7 +12,7 @@ ${enemy[x].name}
 		eContainer.appendChild(d);
 	}
 }
-loadFile.JSON("script/game/json/enemies.json","createEnemies");
+loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/enemies.json","createEnemies");
 updateEnemies();
 getBody.appendChild(eContainer);
 
@@ -22,7 +22,7 @@ function updateEnemies(){
 	
 	function updateWindow(time){
 		windowReload = window.setTimeout(function(){
-			loadFile.JSON("script/game/json/enemies.json","createEnemies");
+			loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/enemies.json","createEnemies");
 		}, 1000*time);
 		counter = window.setInterval(function(){
 			if (time > 0){
