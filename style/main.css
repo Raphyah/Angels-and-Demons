@@ -1,7 +1,7 @@
 body{
 	background-color:#000;
 	color:#fff;
-	font-size:32px;
+	
 }
 meter {
 	width:86%;
@@ -33,5 +33,4 @@ meter.hunger::-webkit-meter-optimum-value {
 }
 .right{
 	float:right;
-font-size:32px;
 }
