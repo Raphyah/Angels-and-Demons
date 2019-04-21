@@ -173,7 +173,7 @@ Fome ${warning[2]}
 		pContainer.appendChild(d);
 	}
 }
-loadFile.JSON("script/game/json/players.json","createPlayers");
+loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/players.json","createPlayers");
 updatePlayers();
 getBody.appendChild(pContainer);
 
@@ -183,7 +183,7 @@ function updatePlayers(){
 	
 	function updateWindow(time){
 		windowReload = window.setTimeout(function(){
-			loadFile.JSON("script/game/json/players.json","createPlayers");
+			loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/players.json","createPlayers");
 		}, 1000*time);
 		counter = window.setInterval(function(){
 			if (time > 0){
