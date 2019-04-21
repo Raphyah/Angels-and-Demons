@@ -151,7 +151,7 @@
 				"leftFoot": 4,
 				"rightFoot": 4
 			},
-			"hide":false
+			"hide":true
 		}
 	]
 }
