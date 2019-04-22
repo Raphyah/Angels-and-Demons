@@ -1,7 +1,21 @@
+* {
+    -moz-text-size-adjust:none;
+    text-size-adjust:none;
+}
 body{
 	background-color:#000;
 	color:#fff;
 	font-size:32px;
+}
+button {
+	font-family:"Sofia";
+	font-size:32px;
+	border-radius:20px;
+	margin:5px 5px 5px 5px;
+}
+.title{
+	font-size:64px;
+	font-family:"Sofia";
 }
 meter {
 	width:86%;
