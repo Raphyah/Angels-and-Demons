@@ -1,5 +1,15 @@
 var getHead = document.head;
 var getBody = document.body;
+
+var playerList;
+var npcList;
+var petList;
+var weaponList;
+var armorList;
+var itemList;
+var skillList;
+var enemyList;
+
 var globalReloadTime=0;
 var current=0;
 function next(){
