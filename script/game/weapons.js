@@ -13,7 +13,7 @@ ${weapon[x].name}
 		wContainer.appendChild(d);
 	}
 }
-loadFile.JSON("script/game/json/weapons.json","createWeapons");
+loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/weapons.json","createWeapons");
 updateWeapons();
 getBody.appendChild(wContainer);
 
@@ -23,7 +23,7 @@ function updateWeapons(){
 	
 	function updateWindow(time){
 		windowReload = window.setTimeout(function(){
-			loadFile.JSON("script/game/json/weapons.json","createWeapons");
+			loadFile.JSON("https://raphyah.github.io/angels-and-demons/script/game/json/weapons.json","createWeapons");
 		}, 1000*time);
 		counter = window.setInterval(function(){
 			if (time > 0){
