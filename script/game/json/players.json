@@ -61,8 +61,8 @@
 			},
 			"agi": 10,
 			"eva": 10,
-			"leftWeapon": 0,
-			"rightWeapon": 11,
+			"leftWeapon": 1,
+			"rightWeapon": 0,
 			"armor": {
 				"head": 1,
 				"neck": 2,
@@ -137,8 +137,8 @@
 			},
 			"agi": 1000,
 			"eva": 1000,
-			"leftWeapon": 0,
-			"rightWeapon": 11,
+			"leftWeapon": 1,
+			"rightWeapon": 0,
 			"armor": {
 				"head": 1,
 				"neck": 2,
