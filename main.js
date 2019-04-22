@@ -26,4 +26,4 @@ function next(){
 }
 
 loadFile.SCRIPT("https://raphyah.github.io/angels-and-demons/script/game/players.js","body","next");
-loadFile.STYLE("style/main.css");
+loadFile.STYLE("https://raphyah.github.io/angels-and-demons/style/main.css");
